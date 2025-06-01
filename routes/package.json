@@ -1,0 +1,25 @@
+{
+  "name": "challenge17-social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osgravy/Challenge17-social-network-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osgravy/Challenge17-social-network-api/issues"
+  },
+  "homepage": "https://github.com/Osgravy/Challenge17-social-network-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.15.1"
+  }
+}

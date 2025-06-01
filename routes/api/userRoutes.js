@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Thought } = require('../../models');
+import { User, Thought } from '../models';
 
 // GET all users
 router.get('/', async (req, res) => {
@@ -117,4 +117,4 @@ router.delete('/:userId/friends/:friendId', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
